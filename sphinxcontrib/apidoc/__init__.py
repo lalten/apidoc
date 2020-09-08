@@ -8,11 +8,9 @@
     :license: BSD, see LICENSE for details.
 """
 
-import pbr.version
-
 from sphinxcontrib.apidoc import ext
 
-__version__ = pbr.version.VersionInfo('sphinxcontrib-apidoc').version_string()
+__version__ = '0.3.0-no-pbr'
 
 if False:
     # For type annotation
